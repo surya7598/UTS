@@ -1,0 +1,25 @@
+Penjelasan Source Code Aplikasi
+1. Penulisan kode PHP diawali dengan "<?php" dan diakhiri dengan "?>"
+
+
+<?php
+<!---isi semua disini tiap bagian yang memanggil fungsi php---->
+?>
+
+
+2. ["---isi---"]; Didalam isi tersebut yaitu untuk memanggil name yang ada di input.
+3. echo digunakan untuk mengirimkan hasil ke browser.
+4. Setiap variabel harus diawali dengan tanda dolar $ dan dapat dipanggil kapanpun dalam halaman yang sama.
+
+<form action="" method="post">
+
+
+1. Action adalah berfungsi untuk menjelaskan kemana data form akan di kirimkan.
+2. Method  adalah berfungsi untuk menjelaskan data isi form akan di kirimkan oleh web browser. Nilai dari atribut method bisa berupa get atau post.
+-Get adalah mengirimkan data pada server dengan cara meletakan data pada bagian akhir URL.
+-Post adalah mengirim data secara terpisah.
+
+Untuk setiap memanggil php selalu menggunakan
+<?php....... ?>
+Contohnya :
+<?php echo “$wil” ?> ini fungsinya memanggil isi dari teks wilayah yang di tulis dari form tersebut.
